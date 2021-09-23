@@ -1,15 +1,18 @@
-.efectoimg:hover{
-filter: opacity(50%);
-transition: 400ms ;
-}
-
-
-
-@media all and (max-width: 576px ){
+@media all and (max-width:576px) {
     .img-responsive{
-        height: 250px;
+        height: 200px;
         object-fit: cover;
+    }
+
+    .centrar{
+        text-align: center;
     }
 }
 
-/*obejct fit hace que no se vea la imagen estirada*/
+.efecto_img:hover{
+    filter: opacity(50%);
+    transition: 400ms;
+}
+.jump{
+    margin-bottom: none;
+}
